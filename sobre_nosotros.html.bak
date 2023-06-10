@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <style>
+        /* Estilos CSS */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Resto de estilos */
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .hero {
+            background-color: #333;
+            height: 200px;
+            border-radius: 6px;
+            margin-bottom: 40px;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member-name {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .team-member-role {
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.php">Servicios</a>
+        <a href="contacto.php">Contacto</a>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Sobre Nosotros</h1>
+            <p class="hero-subtitle">Innovación, calidad y soluciones tecnológicas</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Quiénes somos</h2>
+        <p>DataForce es una empresa dedicada a brindar soluciones tecnológicas avanzadas para empresas de todo tipo. Nuestro equipo de expertos en desarrollo web, redes y seguridad informática trabaja con pasión y compromiso para ofrecer resultados excepcionales a nuestros clientes.</p>
+
+        <h2>Nuestros valores</h2>
+        <ul>
+            <li>Innovación: Estamos a la vanguardia de las últimas tecnologías y tendencias del mercado, ofreciendo soluciones innovadoras que ayudan a nuestros clientes a destacar en su industria.</li>
+            <li>Calidad: Nos enorgullece ofrecer productos y servicios de la más alta calidad, cumpliendo con los estándares más exigentes.</li>
+            <li>Compromiso: Trabajamos en estrecha colaboración con nuestros clientes, entendiendo sus necesidades y brindando un excelente soporte en cada etapa del proceso.</li>
+            <li>Confianza: Establecemos relaciones sólidas y duraderas con nuestros clientes, basadas en la transparencia, la confianza y el respeto mutuo.</li>
+        </ul>
+
+        <h2>Nuestro Equipo</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <h3 class="team-member-name">Joel Garrote</h3>
+                <p class="team-member-role">CEO</p>
+            </div>
+            
+
+        <p>Si deseas conocer más sobre nuestros servicios o tienes alguna consulta, no dudes en contactarnos. Estamos aquí para ayudarte.</p>
+        <a class="btn" href="contacto.html">Contactar</a>
+    </div>
+</body>
+</html>
